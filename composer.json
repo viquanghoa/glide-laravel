@@ -1,0 +1,21 @@
+{
+    "name": "hoavi/glide-laravel",
+    "description": "Laravel integration for Glide Image Server",
+    "autoload": {
+        "psr-4": {
+            "HoaVi\\GlideLaravel\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0 || ^12.0",
+        "league/glide": "^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HoaVi\\GlideLaravel\\GlideLaravelServiceProvider"
+            ]
+        }
+    }
+}
