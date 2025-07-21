@@ -18,13 +18,7 @@ return [
     'sign_key' => env('HOAVI_GLIDE_SIGN_KEY', '0Fkb3;fa@"[./QmAxo\-Va!Y6dPXKmfIZi8?vBce*qxRI}AyvED4At6|3Pik;680Dhst7/ABHUcq4xVm+eXmCR.q9LisYC7F;xckj#.HZyDOW)F.Z{c,-4@]E8:FXO6y'), // Ký hiệu bảo mật nếu có
 
     'defaults' => [
-        'q' => 100,  // Chất lượng ảnh mặc định
-        'fm' => 'webp', // Format mặc định
-    ],
-
-    'allowed_sizes' => [
-        [300, 200],
-        [600, 400],
-        [1200, 800],
+        'q' => 100,  // Default image quality
+        'fm' => 'webp', // Default format
     ],
 ];
